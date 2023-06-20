@@ -13,7 +13,7 @@ error_reporting(0);
                         echo "You have selected employer!<p></p>";
 
                            // Assigning POST values to variables.
-                           $username = $_POST['uname'];
+                           $username = $_POST[''uname'];
                            $password = $_POST['password'];
                            //CHECK if the Fields are Empty
                            if($username == "" || $password == "")
